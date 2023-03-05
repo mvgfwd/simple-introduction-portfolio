@@ -1,0 +1,132 @@
+body {
+  /* background-image: url(img/18410.jpg); */
+  /* background-color: black; */
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  /* height: 3000px; */
+}
+.jumbotron {
+  /* position:relative; */
+  padding-top: 6rem;
+  background: rgba(83, 35, 0, 0.39);
+  /* background-color: rgba(239, 207, 160, 0.80); */
+  background-size: cover;
+}
+
+.overlay {
+  /* position:absolute; */
+  background-image: url(img/9_black_golden_gradient_background_03.jpg);
+  top: 0;
+  left: 0;
+}
+
+h1 {
+  color: #ffffff;
+  text-shadow: 2px 2px #000;
+}
+
+.leads {
+  margin-top: 10px;
+  color: #ffffff;
+  font-size: 1.1em;
+  text-shadow: 2px 2px #000;
+}
+
+.img-thumbnail {
+  box-shadow: 4px 4px 5px 2px rgba(83, 34, 0, 0.6);
+  -webkit-box-shadow: 4px 4px 5px 2px rgba(83, 34, 0, 0.6);
+  -moz-box-shadow: 4px 4px 5px 2px rgba(83, 34, 0, 0.6);
+}
+
+.navbar-brand:hover {
+  background-color: rgba(87, 58, 15, 0.7);
+  border-radius: 10px;
+}
+
+.listnavbut:hover {
+  background-color: rgba(87, 58, 15, 0.7);
+  border-radius: 10px;
+}
+
+#projects {
+  background-color: #cb7a3c;
+  padding-top: 3rem;
+}
+
+.card-title {
+  text-shadow: 1px 1px rgb(177, 155, 155);
+}
+
+.myfooter {
+  /* border:1px solid red; */
+  margin: -60px;
+}
+
+/* #532200 efcfa0 914110  */
+
+/* 5 MARCH */
+.custom-shape-divider-bottom-1678004627 {
+  margin-top: 3rem;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1678004627 svg {
+  position: relative;
+  display: block;
+  width: calc(102% + 1.3px);
+  height: 101px;
+  transform: rotateY(180deg);
+}
+
+.custom-shape-divider-bottom-1678004627 .shape-fill {
+  fill: #f7c873;
+}
+
+/* About me svg divider */
+.custom-shape-divider-bottom-1678004882 {
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1678004882 svg {
+  position: relative;
+  display: block;
+  width: calc(102% + 1.3px);
+  height: 44px;
+}
+
+.custom-shape-divider-bottom-1678004882 .shape-fill {
+  fill: #cb7a3c;
+}
+
+.buttonVisit {
+  background-color: #cb7a3c;
+  border: 1px solid #f7c873;
+  padding: 5px 25px;
+}
+
+.buttonVisit:hover {
+  background-color: white;
+  color: #cb7a3c;
+  border: 1px solid #cb7a3c;
+  box-shadow: 0px 0px 5px 5px rgba(247, 200, 115, 0.75);
+}
+
+.kartu {
+  margin: 5px;
+}
+
+.kartu:hover {
+  box-shadow: 0px 0px 5px 5px rgba(247, 200, 115, 0.75);
+  scale: 1.02;
+}

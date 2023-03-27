@@ -8,8 +8,6 @@ const submitForm = (e) => {
     .value.includes("@");
   const suksesmengirim = document.getElementById("suksesmengirim");
 
-  demo.style.color = "red";
-
   function containsNumber(str) {
     return /\d/.test(str);
   }

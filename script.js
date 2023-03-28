@@ -27,6 +27,8 @@ const submitForm = (e) => {
     alert("Masukkan Email dengan Benar");
     return false;
   }
+  
+  suksesmengirim.classList.add("show");
 
   console.log("harusnya gak kesini");
 

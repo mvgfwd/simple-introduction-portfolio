@@ -127,6 +127,13 @@ h1 {
 }
 
 .kartu:hover {
-  box-shadow: 0px 0px 5px 5px rgba(247, 200, 115, 0.75);
+  box-shadow: 0px 0px 5px 5px rgba(247, 200, 115, 1);
   scale: 1.02;
+}
+
+.spang {
+  color: #cb7a3c;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-weight: bolder;
 }

@@ -127,25 +127,19 @@
         </div>
         <div class="row justify-content-center mt-3">
           <div class="col-5" data-aos="fade-up-right" data-aos-delay="2800">
+            <p class="text-dark">Firstly first, I'm sorry because this is my first portfolio and it's super simple like its Title. Using pure HTML and little bit JavaScript and Bootstrap. </p>
             <p class="lh-base">
-              Hi there, I'm Yonathan Simbolon, born and raised in Batam, Indonesia.
-
-My love for computers started at the age of 12 when my parents introduced me to this fascinating technology. From that point, I was determined to become a technology expert and learn everything there was to know about computers.
-
-However, my hunger for knowledge was so strong that I decided to join the aviation industry as a technician at the age of 17, seeking new experiences and knowledge. Working in the aviation industry for three years provided me with a wealth of experience and a great opportunity to learn.
-
-Despite my job as a technician, I never stopped learning about computers on my own, practicing various programming languages and technology frameworks. Now, I am studying computer science at Binus University to expand my knowledge and skills.
-
-
+              So, I'm Yonathan Simbolon, born and raised in Batam, Indonesia.
+              My love for computers started at the age of 12 when my parents introduced me to this fascinating technology. From that point, I was determined to become a technology expert and learn everything there was to know about computers.
+              However, my hunger for knowledge was so strong that I decided to join the aviation industry as a technician at the age of 17, seeking new experiences and knowledge. Working in the aviation industry for three years provided me with a wealth of experience and a great opportunity to learn.
+              Despite my job as a technician, I never stopped learning about computers on my own, practicing various programming languages and technology frameworks. 
             </p>
           </div>
           <div class="col-5" data-aos="fade-up-left" data-aos-delay="3000">
             <p class="lh-base">
               In the future, I hope to collaborate with startups, IT departments, or any team as a developer or programmer to achieve my childhood dream. I am open to opportunities to learn software engineering and programming, and I am excited to build my skills as a programmer.
-
-With computer and programming, I am happy because I can create something from scratch and constantly learn new things. Currently, I am diving into web development and have gained experience in HTML, CSS, JavaScript, PHP, MySQL, ReactJS, NextJS, Redux, Router, and more. I am also learning Typescript and plan to use the Angular framework soon.
-
-I have worked on various projects, from building simple websites to cloning big apps like Amazon and Facebook. I am eager to expand my knowledge and work with a team to develop exciting projects and become a great programmer.
+              With computer and programming, I am happy because I can create something from scratch and constantly learn new things. Currently, I am diving into web development and have gained experience in HTML, CSS, JavaScript, PHP, MySQL, ReactJS, NextJS, Redux, Router, and more. I am also learning Typescript and plan to use the Angular framework soon.
+              I have worked on various projects, from building simple websites to cloning big apps like Amazon and Facebook. I am eager to expand my knowledge and work with a team to develop exciting projects and become a great programmer. Now, I am studying computer science at Binus University to expand my knowledge and skills.
             </p>
           </div>
         </div>
@@ -175,6 +169,7 @@ I have worked on various projects, from building simple websites to cloning big 
           </div>
         </div>
         <div class="row justify-content-evenly mt-3">
+          <!-- CARD anakjamanstore.com -->
           <div class="col-md-4 mb-4">
             <div class="card kartu" data-aos="flip-right" data-aos-duration="600">
               <img
@@ -195,6 +190,7 @@ I have worked on various projects, from building simple websites to cloning big 
               </div>
             </div>
           </div>
+          <!-- CARD ciptaarba.com -->
           <div class="col-md-4 mb-4">
             <div class="card kartu" data-aos="flip-right" data-aos-duration="600" data-aos-delay="200">
               <img
@@ -213,6 +209,7 @@ I have worked on various projects, from building simple websites to cloning big 
               </div>
             </div>
           </div>
+          <!-- CARD amazonclone // amajon-kappa.vercel.app -->
           <div class="col-md-4 mb-4">
             <div class="card kartu" data-aos="flip-right" data-aos-duration="600" data-aos-delay="400">
               <img
@@ -230,6 +227,7 @@ I have worked on various projects, from building simple websites to cloning big 
               </div>
             </div>
           </div>
+          <!-- CARD warteg // https://warteg-online.vercel.app/ -->
           <div class="col-md-4 mb-3">
             <div class="card kartu" data-aos="flip-right" data-aos-duration="600" data-aos-delay="200">
               <img
@@ -247,6 +245,7 @@ I have worked on various projects, from building simple websites to cloning big 
               </div>
             </div>
           </div>
+          <!-- CARD error: wasap -->
           <div class="col-md-4 mb-3">
             <div class="card kartu" data-aos="flip-right" data-aos-duration="600" data-aos-delay="400">
               <img
@@ -290,7 +289,10 @@ I have worked on various projects, from building simple websites to cloning big 
         </div>
         <div class="row justify-content-center">
           <div class="col-md-8">
-            <form name="ys-contact" onsubmit="event.preventDefault()">
+            <form 
+            name="ys-contact" 
+            onsubmit="event.preventDefault()"
+            action="https://script.google.com/macros/s/AKfycbyXII-MAyLKk25fTLEpqJm3WhGnOG1KxsxIfZ3yMDrwewnHfLomB3RqKNvxKlclrPw/exec">
               <div class="mb-3"  data-aos="zoom-in-up">
                 <label for="exampleInputEmail1" class="form-label fullName"
                   >Full Name:</label
@@ -298,7 +300,7 @@ I have worked on various projects, from building simple websites to cloning big 
                 <input
                   type="text"
                   class="form-control"
-                  id="exampleInputEmail1"
+                  id="inputName"
                   name="nama"
                   aria-describedby="emailHelp"
                 />
@@ -311,7 +313,7 @@ I have worked on various projects, from building simple websites to cloning big 
                   type="email"
                   class="form-control"
                   name="email"
-                  id="exampleInputEmail12"
+                  id="inputEmail"
                   aria-describedby="emailHelp"
                 />
               </div>
@@ -338,23 +340,40 @@ I have worked on various projects, from building simple websites to cloning big 
                 <button
                   class="btn btn-primary btn-proses position-absolute end-0 d-none"
                   type="button"
+                  id="btn-proses"
                   disabled
                 >
                   <span
                     class="spinner-grow spinner-grow-sm"
                     role="status"
                     aria-hidden="true"
-                  ></span>
-                  Loading...
+                  >
+                  </span>
+                Loading...
                 </button>
               </div>
             </form>
+            <!-- SUCCESS NOTIF -->
             <div
             id="suksesmengirim"
               class="alert alert-success alert-dismissible fade show d-none alert-kirim position-absolute"
               role="alert"
             >
               <strong>Thank You!</strong> Your Message Have Been Sent!
+              <button
+                type="button"
+                class="btn-close"
+                data-bs-dismiss="alert"
+                aria-label="Close"
+              ></button>
+            </div>
+            <!-- FAIL NOTIF -->
+            <div
+            id="gagalmengirim"
+              class="alert alert-error alert-dismissible fade show d-none alert-gagal position-absolute"
+              role="alert"
+            >
+              <strong>Sorry!</strong> We Cannot Receive Your Message!
               <button
                 type="button"
                 class="btn-close"
@@ -422,11 +441,12 @@ I have worked on various projects, from building simple websites to cloning big 
 
     <script>
       const scriptURL =
-        "https://script.google.com/macros/s/AKfycbw1C_07wZLAAVPXBWPQo_7VEVW15ExrQcPUDN2rzUACQS7z8Mw9LIdGtfI-q8kEHWg/exec";
+        "https://script.google.com/macros/s/AKfycbyXII-MAyLKk25fTLEpqJm3WhGnOG1KxsxIfZ3yMDrwewnHfLomB3RqKNvxKlclrPw/exec";
       const form = document.forms["ys-contact"];
       const tombolKirim = document.querySelector(".btn-send");
       const tombolLoading = document.querySelector(".btn-proses");
       const terKirim = document.querySelector(".alert-kirim");
+      const takTerkirim = document.querySelector('.alert-gagal')
 
       form.addEventListener("submit", (e) => {
         e.preventDefault();
@@ -438,11 +458,15 @@ I have worked on various projects, from building simple websites to cloning big 
             tombolLoading.classList.toggle("d-none"); //toggle: menambah class d-none
             terKirim.classList.toggle("d-none"); //alert toggle menghapus class d-none
             form.reset();
-            console.log("Success!", response);
           })
-          .catch((error) => console.error("Error!", error.message));
+          .catch((error) => {
+            tombolKirim.classList.toggle("d-none"); //toggle: menghapus class d-none
+            tombolLoading.classList.toggle("d-none"); //toggle: menambah class d-none
+            takTerkirim.classList.toggle('d-none'); //Toggle: menghapus class d-none
+          });
       });
     </script>
+
     <script src="script.js"></script>
 
   </body>
